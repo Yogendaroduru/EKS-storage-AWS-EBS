@@ -293,7 +293,7 @@ kubectl get svc
 kubectl get nodes -o wide
 
 # Access Health Status API for User Management Service
-http://<EKS-WorkerNode-Public-IP>:31231/usermgmt/health-status   
+[http://EKS-WorkerNode-Public-IP:31231/usermgmt/health-status]   
 
 
 Step-04: Connect to MySQL Database
